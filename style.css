@@ -1,0 +1,260 @@
+* {
+    margin:0;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    color:rgb(201, 50, 75);
+}
+
+.menu-container {
+    flex: 6;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-list-item {
+    margin: 40px;
+    font-size: 20px;
+    color: rgb(208, 103, 121);
+}
+
+.menu-list-item:hover {
+    transform: scale(1.3);
+}
+
+.profile-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.profile-picture {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.profile-text-container {
+    color: rgb(208, 103, 121);
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.profile-icon {
+    color: rgb(208, 103, 121);
+}
+
+.sidebar {
+    width: 50px;
+    height: 100%;
+    background-color: antiquewhite;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.left-menu-icon {
+    margin-bottom: 40px;
+    color: rgb(208, 103, 121);
+    font-size: 20px;
+}
+
+.left-menu-icon:hover {
+    transform: scale(1.3);
+}
+
+.container {
+    background-color: rgb(243, 240, 240);
+    height: calc(100vh - 50px);
+}
+
+.content-container {
+    margin-left: 50px;
+}
+
+.featured-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    background-color: rgb(235, 85, 110);
+    padding: 50px;
+}
+
+.featured-title {
+    width: 200px;
+    margin: 50px 100px;
+}
+
+.featured-title-image {
+    width: 600px;
+    height: 485px;
+    border-radius: 50%;
+}
+
+.movie-img {
+    margin-left: 280px;
+    margin-top: 50px;
+    border-radius: 10%;
+    width: 900px;
+    height:600px;
+    border-color: rgb(216, 143, 155);
+    border: 2px solid rgb(216, 143, 155);
+    box-shadow: 10px 10px 20px 20px rgb(160, 86, 86);
+}
+
+.trailer-button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: azure;
+    border: 2px;
+    width: 170px;
+    height: 50px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    background: transparent;
+    transition: 0.3s;
+    padding: 10px 20px;
+    font-size: large;
+    margin-left: 580px;
+    margin-top: 60px;
+}
+.trailer-button:hover {
+    transform: scale(1.1);
+}
+
+.watchlist {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: azure;
+    border: 2px;
+    width: 170px;
+    height: 50px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    background: transparent;
+    transition: 0.3s;
+    padding: 10px 20px;
+    font-size: large;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.watchlist:hover {
+    transform: scale(1.1);
+}
+
+.name {
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+.review {
+    margin-top: 30px;
+    margin-left: 400px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.featured-text {
+    width: 500px;
+    color: rgb(154, 105, 105);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+.featured-button {
+    background-color: rgb(230, 79, 104);
+    color: white;
+    border-radius: 20px;
+    margin-left: 130px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.featured-button:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    color:rgb(230, 79, 104);
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.movie-list {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.movie-list-item {
+    margin-right: 30px;
+}
+
+.movie-list-item:hover .movie-list-item-img {
+    transform: scale(1.1);
+}
+
+.movie-list-item-img {
+    transition: all 0.5s ease-in-out;
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+}
+
+p {
+    color: rgb(230, 79, 104);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.watch-btn {
+    background-color: rgb(230, 79, 104);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 65px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.watch-btn:hover {
+    transform: scale(1.1);
+}
