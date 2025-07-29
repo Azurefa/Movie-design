@@ -101,8 +101,8 @@
 
 .featured-container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
     height: 50vh;
     background-color: rgb(235, 85, 110);
     padding: 50px;
