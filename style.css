@@ -1,5 +1,6 @@
 * {
-    margin:0;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar {
@@ -105,6 +106,10 @@
     height: 50vh;
     background-color: rgb(235, 85, 110);
     padding: 50px;
+}
+
+.featured-container-image {
+    flex: 1;
 }
 
 .featured-title {
@@ -259,12 +264,7 @@ p {
     transform: scale(1.1);
 }
 
-@media only screen and (max-width: 600px) {
-  .navbar-container,
-  .menu-container,
-  .profile-container,
-  .featured-text,
-  .featured-title-image,
+@media only screen and (max-width: 768px) {
   .movie-img,
   .trailer-button,
   .watchlist,
@@ -280,6 +280,28 @@ p {
     margin-left: 0;
     height: auto;
     width: 100%;
+  }
+
+  .container {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .featured-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featured-container-image {
+    width: 100%;
+    margin-bottom: 300px;
+  }
+
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .trailer-button,
