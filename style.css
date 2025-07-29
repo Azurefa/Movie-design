@@ -143,7 +143,7 @@
     transition: 0.3s;
     padding: 10px 20px;
     font-size: large;
-    margin-left: 580px;
+    margin-left: 550px;
     margin-top: 60px;
 }
 .trailer-button:hover {
@@ -257,4 +257,45 @@ p {
 
 .watch-btn:hover {
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-container,
+  .menu-container,
+  .profile-container,
+  .featured-text,
+  .featured-title-image,
+  .movie-img,
+  .trailer-button,
+  .watchlist,
+  .review,
+  .name {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .movie-img {
+    margin-left: 0;
+    height: auto;
+    width: 100%;
+  }
+
+  .trailer-button,
+  .watchlist {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .menu-list-item {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .profile-text-container {
+    display: none;
+  }
 }
